@@ -1,0 +1,19 @@
+//= require jquery
+//= require angular
+
+//= require angular-bootstrap/ui-bootstrap-tpls.js
+//= require angular-rails-templates
+//= require angular-route
+//= require angular-loading-bar
+//= require angular-resource
+//= require angular-ui-router
+//= require angular-mocks
+//= require angular-sanitize
+//= require angular-cookie
+//= require angular-ui-select
+//= require_tree ./controllers/
+//= require_tree ./resources/
+//= require_tree ./services/
+//= require_tree ../templates/
+//= require app.js
+//= require_self

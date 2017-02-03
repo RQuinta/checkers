@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'chapaza';
+    src: url('Chapaza.ttf');
+}
+
+@font-face {
+    font-family: 'geosansLight';
+    src: url('GeosansLight.ttf');
+}
+
+#mainChessBoard {
+    border: 1px solid black;
+}
+
+#partida {
+    background-size: cover;
+    background: url(fundo-tabuleiro.png) no-repeat;
+    margin-bottom: 0;
+    padding-top: 4%;
+    height: 100vh;
+}
+
+.righttxt {
+    color: #d0cf5c;
+    font-family: 'geosansLight'
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    text-align: center;
+}
+
+#modal {
+    border: 3px solid #d0cf5c;
+    padding: 5px 5px 5px 5px;
+    font-family: 'chapaza';
+    font-size: 18px;
+    color: #d0cf5c;
+    height:15vh;
+    width:100%;
+    background: url(fundo-tabuleiro.png) no-repeat;
+}
+
+.center-modal {
+    position: fixed;
+    margin-top: 20%;
+    left: 50.5%;
+}
+
+.instrucoes {
+    text-align: left;
+    overflow: hidden;
+    background: url(fundo-tabuleiro.png) no-repeat;
+    height: 100vh;
+    overflow: auto;
+}
+
+.buttons {
+    color: #d0cf5c;
+    overflow: hidden;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+}
+
+#mainBackground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(checkers.jpg) no-repeat center center fixed;
+    /*background-size: cover*/
+}
+
+#mainBackground div button {
+    font-family: 'chapaza';
+    font-size: 22px;
+    position: absolute;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    color: #d0cf5c;
+    left: 46%;
+}
+
+table {
+    position: absolute;
+    width: 40%;
+    height: 40vh;
+    margin:auto;
+    margin-left:30%;
+    align: center;
+    border: 1px solid #d0cf5c;
+    background-repeat: no-repeat;
+}
+.green{
+    color:#037503;
+    font-family: 'chapaza';
+    font-size: 22px;
+}
+.blue{
+    color:#049de9;
+    font-family: 'chapaza';
+    font-size: 22px;
+}
+.white {
+    padding: 0px 0px 0px 0px;
+    width: 12.5%;
+    height: 5vw;
+    float: left;
+    background-position: center center;
+    background-size: cover;
+    background-color: #081404;
+    background-repeat: no-repeat;
+}
+.corPeca{
+    position:absolute;
+    color:#d0cf5c;
+    float:left;
+    text-align:center;
+    margin-left:20%;
+    margin-top:14%
+}
+.home{
+    color: #d0cf5c;
+    font-family: 'chapaza';
+    float:left;
+    margin-left: 13%;
+    margin-top:18%;
+    border:none;
+    font-size: 22px;
+    background-color: transparent;
+}
+button:hover{
+    text-decoration: underline;
+}
+.black {
+    padding: 0px 0px 0px 0px;
+    width: 12.5%;
+    height: 5vw;
+    float: left;
+    background-position: center center;
+    background-size: cover;
+    background-color: #d0cf5c;
+    background-repeat: no-repeat;
+}
