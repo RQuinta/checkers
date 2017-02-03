@@ -1,5 +1,3 @@
 # Checkers
 
-Rails api for checkers using minmax AI
-
-```
+Rails API for checkers using minmax AI
